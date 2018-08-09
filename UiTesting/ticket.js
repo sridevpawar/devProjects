@@ -4,4 +4,4 @@ var firefoxOptions = new firefox.Options();
 var driver = new webdriver.Builder().forBrowser('firefox')
     .setFirefoxOptions(firefoxOptions)
     .build();
-driver.get("https://team.goodeggs.com");
+driver.get("https://google.com");
